@@ -12,7 +12,7 @@
 
     <div class="card">
         <div class="card-header">
-            <img src="../../Downloads/logo-transparent.png"/>
+            <img src="logo-transparent.png" height="55" width="250"/>
             <form class="form-inline float-right">
                 <input type="text" class="form-control mb-2 mr-sm-2" id="zip" placeholder="Zipcode">
                 <input type="text" class="form-control mb-2 mr-sm-2" id="distance" placeholder="Max Distance (Mi)">
@@ -52,7 +52,7 @@
                     '<hr>' +
                     '<p><strong>Date: </strong> 08/08/18</p>' +
                     '<p><strong>Location: </strong>UT Arlington</p>' +
-                    '<a href="https://www.google.com/maps/dir//32.7299,+-97.1140/@32.7308832,-97.1845505,12z/data=!4m6!4m5!1m0!1m3!2m2!1d-97.114!2d32.7299" target="_blank" class="btn btn-sm btn-dark">Directions</a>'
+                    '<a href="https://www.google.com/maps/dir//The+University+of+Texas+at+Arlington" target="_blank" class="btn btn-sm btn-dark">Directions</a>'
                 }
             ];
 
@@ -86,6 +86,35 @@
                         infoWindow.open(map, marker);
                     });
                 }
+            }
+            var infoWindow = new google.maps.InfoWindow;
+
+            // Try HTML5 geolocation.
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(function(position) {
+                    var pos = {
+                        lat: position.coords.latitude,
+                        lng: position.coords.longitude
+                    };
+
+                    infoWindow.setPosition(pos);
+                    infoWindow.setContent('Location found.');
+                    infoWindow.open(map);
+                    map.setCenter(pos);
+                }, function() {
+                    handleLocationError(true, infoWindow, map.getCenter());
+                });
+            } else {
+                // Browser doesn't support Geolocation
+                handleLocationError(false, infoWindow, map.getCenter());
+            }
+
+            function handleLocationError(browserHasGeolocation, infoWindow, pos) {
+                infoWindow.setPosition(pos);
+                infoWindow.setContent(browserHasGeolocation ?
+                    'Error: The Geolocation service failed.' :
+                    'Error: Your browser doesn\'t support geolocation.');
+                infoWindow.open(map);
             }
         }
     </script>

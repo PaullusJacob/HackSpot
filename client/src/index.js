@@ -5,6 +5,13 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter } from 'react-router-dom';
 
+const webapp = () => {
+    return (
+        <BrowserRouter>
+            
+        </BrowserRouter>
+    )
+}
 
 
 ReactDOM.render(<App />, document.getElementById('root'));

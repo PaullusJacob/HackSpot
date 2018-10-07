@@ -27,17 +27,24 @@ mlh_json.write(
 	)
 
 
-
-
-
-
 divs = soup.find_all('div', class_='event-wrapper')
 
 
 i = 0
 for div in divs:
     i+=1
-    mlh_json.write("\n\n\t\"hack" + str(i) + "\":" + "{"+"\n")
+    mlh_json.write("\n\n\t\"hack")
+
+    if i < 10:
+        mlh_json.write("0" + str(i) + "\":" + "{"+"\n")
+    else:
+        mlh_json.write(str(i) + "\":" + "{"+"\n")
+
+	eventBox = div.find(itemprop = 'name')
+	eventName = str(eventBox.text.strip())
+	#eventName
+
+
     eventBox = div.find(itemprop = 'name')
     eventName = str(eventBox.text.strip())
     eventStartDate = div.find(itemprop = 'startDate')
@@ -64,8 +71,24 @@ for div in divs:
     mlh_json.write("\n\t\t},")
 
 
-mlh_json.write
+mlh_json.close()
+
+
+# This fixes the extra commma in the last line
+readFile = open("mlh.json")
+lines = readFile.readlines()
+readFile.close()
+w = open("mlh.json","w")
+w.writelines([item for item in lines[:-1]])
+w.close()
+
+
+
+# This finishes writing the remainder of the .json file
+mlh_json = open("mlh.json", "a")
+mlh_json.write("\t\t}")
 mlh_json.write("\n}")
+mlh_json.close()
 
 
 with open ('mlh.json') as json_data:
@@ -84,34 +107,7 @@ firebase = firebase.FirebaseApplication('https://hackspot12.firebaseio.com', Non
 @app.route('/', methods=['POST', 'GET'])
 def index():
 
-    
-    
-    result = firebase.post('/users', data
-    
-    
-    # {
-
-    #     "hack1":{
-
-    #         "name":"Hack the 6ix 2018",
-    #         "start":"2018-08-24",
-    #         "end":"2018-08-26",
-    #         "city":"Toronto",
-    #         "state":"ON"
-    #         },
-
-    #     "hack2":{
-
-    #         "name":"HackMTY",
-    #         "start":"2018-08-25",
-    #         "end":"2018-08-26",
-    #         "city":"Monterrey",
-    #         "state":"MX"
-    #         },
-
-    # }
-    
-    ) #end of argument
+    result = firebase.post('/hackathons', data) #end of argument
     return 'hello'
     
 

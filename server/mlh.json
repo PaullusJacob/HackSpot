@@ -1,0 +1,659 @@
+{
+
+	"hack1":{
+
+		"name":"Hack the 6ix 2018",
+		"start":"2018-08-24",
+		"end":"2018-08-26",
+		"city":"Toronto",
+		"state":"ON"
+		},
+
+	"hack2":{
+
+		"name":"HackMTY",
+		"start":"2018-08-25",
+		"end":"2018-08-26",
+		"city":"Monterrey",
+		"state":"MX"
+		},
+
+	"hack3":{
+
+		"name":"ByteHacks",
+		"start":"2018-09-01",
+		"end":"2018-09-02",
+		"city":"New York",
+		"state":"NY"
+		},
+
+	"hack4":{
+
+		"name":"MedHacks",
+		"start":"2018-09-07",
+		"end":"2018-09-09",
+		"city":"Baltimore",
+		"state":"MD"
+		},
+
+	"hack5":{
+
+		"name":"MXHacks",
+		"start":"2018-09-07",
+		"end":"2018-09-09",
+		"city":"Mexico City",
+		"state":"MX"
+		},
+
+	"hack6":{
+
+		"name":"PennApps",
+		"start":"2018-09-07",
+		"end":"2018-09-09",
+		"city":"Philadelphia",
+		"state":"PA"
+		},
+
+	"hack7":{
+
+		"name":"HackTheU",
+		"start":"2018-09-08",
+		"end":"2018-09-09",
+		"city":"Salt Lake City",
+		"state":"UT"
+		},
+
+	"hack8":{
+
+		"name":"HackRice 8",
+		"start":"2018-09-14",
+		"end":"2018-09-16",
+		"city":"Houston",
+		"state":"TX"
+		},
+
+	"hack9":{
+
+		"name":"Hack the North",
+		"start":"2018-09-14",
+		"end":"2018-09-16",
+		"city":"Waterloo",
+		"state":"ON"
+		},
+
+	"hack10":{
+
+		"name":"SBU Hacks",
+		"start":"2018-09-14",
+		"end":"2018-09-15",
+		"city":"Stony Brook",
+		"state":"NY"
+		},
+
+	"hack11":{
+
+		"name":"ShellHacks",
+		"start":"2018-09-14",
+		"end":"2018-09-16",
+		"city":"Miami",
+		"state":"FL"
+		},
+
+	"hack12":{
+
+		"name":"Hophacks",
+		"start":"2018-09-15",
+		"end":"2018-09-17",
+		"city":"Baltimore",
+		"state":"MD"
+		},
+
+	"hack13":{
+
+		"name":"Lumohacks",
+		"start":"2018-09-15",
+		"end":"2018-09-16",
+		"city":"Burnaby",
+		"state":"BC"
+		},
+
+	"hack14":{
+
+		"name":"BASEHacks 3.0",
+		"start":"2018-09-22",
+		"end":"2018-09-23",
+		"city":"Fremont",
+		"state":"CA"
+		},
+
+	"hack15":{
+
+		"name":"GrizzHacks",
+		"start":"2018-09-22",
+		"end":"2018-09-23",
+		"city":"Rochester",
+		"state":"MI"
+		},
+
+	"hack16":{
+
+		"name":"Ram Hacks",
+		"start":"2018-09-22",
+		"end":"2018-09-23",
+		"city":"Richmond",
+		"state":"VA"
+		},
+
+	"hack17":{
+
+		"name":"Volhacks",
+		"start":"2018-09-28",
+		"end":"2018-09-30",
+		"city":"Knoxville",
+		"state":"TN"
+		},
+
+	"hack18":{
+
+		"name":"HackNY",
+		"start":"2018-09-29",
+		"end":"2018-09-30",
+		"city":"New York",
+		"state":"NY"
+		},
+
+	"hack19":{
+
+		"name":"Mining hack",
+		"start":"2018-09-29",
+		"end":"2018-09-30",
+		"city":"Torreon",
+		"state":"MX"
+		},
+
+	"hack20":{
+
+		"name":"HackGSU",
+		"start":"2018-10-05",
+		"end":"2018-10-07",
+		"city":"Atlanta",
+		"state":"GA"
+		},
+
+	"hack21":{
+
+		"name":"HackNC",
+		"start":"2018-10-05",
+		"end":"2018-10-07",
+		"city":"Chapel Hill",
+		"state":"NC"
+		},
+
+	"hack22":{
+
+		"name":"Hack This. Help Kids.",
+		"start":"2018-10-05",
+		"end":"2018-10-06",
+		"city":"Pittsburgh",
+		"state":"PA"
+		},
+
+	"hack23":{
+
+		"name":"HackPSU",
+		"start":"2018-10-06",
+		"end":"2018-10-07",
+		"city":"State College",
+		"state":"PA"
+		},
+
+	"hack24":{
+
+		"name":"HackRU",
+		"start":"2018-10-06",
+		"end":"2018-10-07",
+		"city":"New Brunswick",
+		"state":"NJ"
+		},
+
+	"hack25":{
+
+		"name":"HackUIowa",
+		"start":"2018-10-06",
+		"end":"2018-10-07",
+		"city":"Iowa City",
+		"state":"IA"
+		},
+
+	"hack26":{
+
+		"name":"HackUTA",
+		"start":"2018-10-06",
+		"end":"2018-10-07",
+		"city":"Arlington",
+		"state":"TX"
+		},
+
+	"hack27":{
+
+		"name":"HAkron 3000",
+		"start":"2018-10-06",
+		"end":"2018-10-07",
+		"city":"Akron",
+		"state":"OH"
+		},
+
+	"hack28":{
+
+		"name":"HackCooper",
+		"start":"2018-10-12",
+		"end":"2018-10-13",
+		"city":"New York",
+		"state":"NY"
+		},
+
+	"hack29":{
+
+		"name":"HackUMass",
+		"start":"2018-10-12",
+		"end":"2018-10-14",
+		"city":"Amherst",
+		"state":"MA"
+		},
+
+	"hack30":{
+
+		"name":"MHacks",
+		"start":"2018-10-12",
+		"end":"2018-10-14",
+		"city":"Ann Arbor",
+		"state":"MI"
+		},
+
+	"hack31":{
+
+		"name":"PatriotHacks",
+		"start":"2018-10-12",
+		"end":"2018-10-14",
+		"city":"Fairfax",
+		"state":"VA"
+		},
+
+	"hack32":{
+
+		"name":"SD Hacks",
+		"start":"2018-10-12",
+		"end":"2018-10-14",
+		"city":"La Jolla",
+		"state":"CA"
+		},
+
+	"hack33":{
+
+		"name":"TigerHacks",
+		"start":"2018-10-12",
+		"end":"2018-10-14",
+		"city":"Columbia",
+		"state":"MO"
+		},
+
+	"hack34":{
+
+		"name":"EastHacks",
+		"start":"2018-10-13",
+		"end":"2018-10-14",
+		"city":"Cherry Hill",
+		"state":"NJ"
+		},
+
+	"hack35":{
+
+		"name":"HackDuke",
+		"start":"2018-10-13",
+		"end":"2018-10-14",
+		"city":"Durham",
+		"state":"NC"
+		},
+
+	"hack36":{
+
+		"name":"BigRed//Hacks",
+		"start":"2018-10-19",
+		"end":"2018-10-21",
+		"city":"Ithaca",
+		"state":"NY"
+		},
+
+	"hack37":{
+
+		"name":"BoilerMake",
+		"start":"2018-10-19",
+		"end":"2018-10-21",
+		"city":"West Lafayette",
+		"state":"IN"
+		},
+
+	"hack38":{
+
+		"name":"HackGT",
+		"start":"2018-10-19",
+		"end":"2018-10-21",
+		"city":"Atlanta",
+		"state":"GA"
+		},
+
+	"hack39":{
+
+		"name":"HackHarvard",
+		"start":"2018-10-19",
+		"end":"2018-10-21",
+		"city":"Cambridge",
+		"state":"MA"
+		},
+
+	"hack40":{
+
+		"name":"HackISU",
+		"start":"2018-10-19",
+		"end":"2018-10-21",
+		"city":"Ames",
+		"state":"IA"
+		},
+
+	"hack41":{
+
+		"name":"Hack KState",
+		"start":"2018-10-19",
+		"end":"2018-10-21",
+		"city":"Manhattan",
+		"state":"KS"
+		},
+
+	"hack42":{
+
+		"name":"Kent Hack Enough",
+		"start":"2018-10-19",
+		"end":"2018-10-21",
+		"city":"Kent",
+		"state":"OH"
+		},
+
+	"hack43":{
+
+		"name":"DemonHacks",
+		"start":"2018-10-20",
+		"end":"2018-10-21",
+		"city":"Chicago",
+		"state":"IL"
+		},
+
+	"hack44":{
+
+		"name":"DubHacks",
+		"start":"2018-10-20",
+		"end":"2018-10-21",
+		"city":"Seattle",
+		"state":"WA"
+		},
+
+	"hack45":{
+
+		"name":"HackTX",
+		"start":"2018-10-20",
+		"end":"2018-10-21",
+		"city":"Austin",
+		"state":"TX"
+		},
+
+	"hack46":{
+
+		"name":"HackUMBC",
+		"start":"2018-10-20",
+		"end":"2018-10-21",
+		"city":"Baltimore",
+		"state":"MD"
+		},
+
+	"hack47":{
+
+		"name":"HyphenHacks",
+		"start":"2018-10-20",
+		"end":"2018-10-21",
+		"city":"San Francisco",
+		"state":"CA"
+		},
+
+	"hack48":{
+
+		"name":"Power the Future",
+		"start":"2018-10-20",
+		"end":"2018-10-21",
+		"city":"Richmond",
+		"state":"VA"
+		},
+
+	"hack49":{
+
+		"name":"Cal Hacks 5.0",
+		"start":"2018-11-02",
+		"end":"2018-11-04",
+		"city":"Berkeley",
+		"state":"CA"
+		},
+
+	"hack50":{
+
+		"name":"Electric City Hacks",
+		"start":"2018-11-02",
+		"end":"2018-11-04",
+		"city":"Peterborough",
+		"state":"ON"
+		},
+
+	"hack51":{
+
+		"name":"VandyHacks",
+		"start":"2018-11-02",
+		"end":"2018-11-04",
+		"city":"Nashville",
+		"state":"TN"
+		},
+
+	"hack52":{
+
+		"name":"WHACK (Wellesley Hacks)",
+		"start":"2018-11-02",
+		"end":"2018-11-04",
+		"city":"Wellesley",
+		"state":"MA"
+		},
+
+	"hack53":{
+
+		"name":"CodeRED Discovery",
+		"start":"2018-11-03",
+		"end":"2018-11-04",
+		"city":"Houston",
+		"state":"TX"
+		},
+
+	"hack54":{
+
+		"name":"HackBI II",
+		"start":"2018-11-03",
+		"end":"2018-11-04",
+		"city":"Alexandria",
+		"state":"VA"
+		},
+
+	"hack55":{
+
+		"name":"HackNJIT",
+		"start":"2018-11-03",
+		"end":"2018-11-04",
+		"city":"Newark",
+		"state":"NJ"
+		},
+
+	"hack56":{
+
+		"name":"hackPHS",
+		"start":"2018-11-03",
+		"end":"2018-11-04",
+		"city":"Princeton",
+		"state":"NJ"
+		},
+
+	"hack57":{
+
+		"name":"HealthHacks",
+		"start":"2018-11-03",
+		"end":"2018-11-04",
+		"city":"Richmond",
+		"state":"VA"
+		},
+
+	"hack58":{
+
+		"name":"UB Hacking",
+		"start":"2018-11-03",
+		"end":"2018-11-04",
+		"city":"Amherst",
+		"state":"NY"
+		},
+
+	"hack59":{
+
+		"name":"HackPrinceton",
+		"start":"2018-11-09",
+		"end":"2018-11-11",
+		"city":"Princeton",
+		"state":"NJ"
+		},
+
+	"hack60":{
+
+		"name":"sunhacks",
+		"start":"2018-11-09",
+		"end":"2018-11-11",
+		"city":"Phoenix / Tempe",
+		"state":"AZ"
+		},
+
+	"hack61":{
+
+		"name":"BostonHacks",
+		"start":"2018-11-10",
+		"end":"2018-11-11",
+		"city":"Boston",
+		"state":"MA"
+		},
+
+	"hack62":{
+
+		"name":"Codestellation",
+		"start":"2018-11-10",
+		"end":"2018-11-11",
+		"city":"Waltham",
+		"state":"MA"
+		},
+
+	"hack63":{
+
+		"name":"HackMCST",
+		"start":"2018-11-10",
+		"end":"2018-11-11",
+		"city":"Denville",
+		"state":"NJ"
+		},
+
+	"hack64":{
+
+		"name":"HackWITUs",
+		"start":"2018-11-10",
+		"end":"2018-11-11",
+		"city":"Boston",
+		"state":"MA"
+		},
+
+	"hack65":{
+
+		"name":"MadHacks",
+		"start":"2018-11-10",
+		"end":"2018-11-11",
+		"city":"Madison",
+		"state":"WI"
+		},
+
+	"hack66":{
+
+		"name":"Technica",
+		"start":"2018-11-10",
+		"end":"2018-11-11",
+		"city":"College Park",
+		"state":"MD"
+		},
+
+	"hack67":{
+
+		"name":"HackUSU",
+		"start":"2018-11-16",
+		"end":"2018-11-17",
+		"city":"Logan",
+		"state":"UT"
+		},
+
+	"hack68":{
+
+		"name":"Lehman Hack50",
+		"start":"2018-11-16",
+		"end":"2018-11-17",
+		"city":"Bronx",
+		"state":"NY"
+		},
+
+	"hack69":{
+
+		"name":"BlocHacks",
+		"start":"2018-11-17",
+		"end":"2018-11-18",
+		"city":"Montreal",
+		"state":"QC"
+		},
+
+	"hack70":{
+
+		"name":"SacHacks",
+		"start":"2018-11-17",
+		"end":"2018-11-18",
+		"city":"Sacramento",
+		"state":"CA"
+		},
+
+	"hack71":{
+
+		"name":"Hack Western V",
+		"start":"2018-11-23",
+		"end":"2018-11-25",
+		"city":"London",
+		"state":"ON"
+		},
+
+	"hack72":{
+
+		"name":"YHack",
+		"start":"2018-11-30",
+		"end":"2018-12-02",
+		"city":"New Haven",
+		"state":"CT"
+		},
+
+	"hack73":{
+
+		"name":"Urban Hacks",
+		"start":"2018-12-08",
+		"end":"2018-12-09",
+		"city":"Hamilton",
+		"state":"ON"
+		},
+}

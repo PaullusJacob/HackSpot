@@ -41,10 +41,10 @@
             var map = new google.maps.Map(document.getElementById('map'), options);
 
             // Listen for click on map
-            google.maps.event.addListener(map, 'click', function(event){
-                // Add marker
-                addMarker({coords:event.latLng});
-            });
+            // google.maps.event.addListener(map, 'click', function(event){
+            //     // Add marker
+            //     addMarker({coords:event.latLng});
+            // });
 
             // Array of markers
             var markers = [
@@ -207,7 +207,6 @@
                     '<p><strong>Location: </strong>DePaul University</p>' +
                     '<a href="https://www.google.com/maps/dir//The+University+of+Texas+at+Arlington" target="_blank" class="btn btn-sm btn-dark">Directions</a>'
                 }
-
             ];
 
             // Loop through markers

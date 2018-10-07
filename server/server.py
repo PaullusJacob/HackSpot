@@ -1,5 +1,7 @@
 import random
-from flask import Flask
+from flask import Flask, jsonify, request
+from flask_restful import Resource, Api
+from flask_cors import CORS
 from firebase import firebase
 import requests
 from bs4 import BeautifulSoup
@@ -99,6 +101,7 @@ with open ('mlh.json') as json_data:
 
 
 app = Flask(__name__)
+CORS(app)
 
 firebase = firebase.FirebaseApplication('https://hackspot12.firebaseio.com', None)
 
@@ -108,13 +111,23 @@ firebase = firebase.FirebaseApplication('https://hackspot12.firebaseio.com', Non
 def index():
 
     result = firebase.post('/hackathons', data) #end of argument
-    return 'hello'
+
+    for key, value in result.items():
+        print key, value
+
+    return value
     
 
-@app.route('/add', methods=['POST'])
-def addUser():
-    return 'add'
 
+@app.route('/get/', methods=['POST','GET'])
+def getHack():
+    key = str(index())
+    print("YOOOOOOOOOOO")
+    print(key)
+    result = firebase.get('/hackathons', key) #end of argument
+    return jsonify(result)
+    
 
 if __name__ == '__main__':
     app.run(host='localhost', port=8081, debug=True)
+    

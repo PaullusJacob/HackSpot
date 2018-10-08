@@ -5,6 +5,8 @@
 		"name":"Hack the 6ix 2018",
 		"start":"2018-08-24",
 		"end":"2018-08-26",
+		"lat":"43.653226",
+		"lng":"-79.3831843",
 		"city":"Toronto",
 		"state":"ON"
 		},
@@ -14,6 +16,8 @@
 		"name":"HackMTY",
 		"start":"2018-08-25",
 		"end":"2018-08-26",
+		"lat":"25.6866142",
+		"lng":"-100.3161126",
 		"city":"Monterrey",
 		"state":"MX"
 		},
@@ -23,6 +27,8 @@
 		"name":"ByteHacks",
 		"start":"2018-09-01",
 		"end":"2018-09-02",
+		"lat":"40.7127753",
+		"lng":"-74.0059728",
 		"city":"New York",
 		"state":"NY"
 		},
@@ -32,6 +38,8 @@
 		"name":"MedHacks",
 		"start":"2018-09-07",
 		"end":"2018-09-09",
+		"lat":"39.2903848",
+		"lng":"-76.6121893",
 		"city":"Baltimore",
 		"state":"MD"
 		},
@@ -41,6 +49,8 @@
 		"name":"MXHacks",
 		"start":"2018-09-07",
 		"end":"2018-09-09",
+		"lat":"19.4326077",
+		"lng":"-99.133208",
 		"city":"Mexico City",
 		"state":"MX"
 		},
@@ -50,6 +60,8 @@
 		"name":"PennApps",
 		"start":"2018-09-07",
 		"end":"2018-09-09",
+		"lat":"39.9525839",
+		"lng":"-75.1652215",
 		"city":"Philadelphia",
 		"state":"PA"
 		},
@@ -59,6 +71,8 @@
 		"name":"HackTheU",
 		"start":"2018-09-08",
 		"end":"2018-09-09",
+		"lat":"40.7607793",
+		"lng":"-111.8910474",
 		"city":"Salt Lake City",
 		"state":"UT"
 		},
@@ -68,6 +82,8 @@
 		"name":"HackRice 8",
 		"start":"2018-09-14",
 		"end":"2018-09-16",
+		"lat":"29.7604267",
+		"lng":"-95.3698028",
 		"city":"Houston",
 		"state":"TX"
 		},
@@ -77,6 +93,8 @@
 		"name":"Hack the North",
 		"start":"2018-09-14",
 		"end":"2018-09-16",
+		"lat":"43.4642578",
+		"lng":"-80.5204096",
 		"city":"Waterloo",
 		"state":"ON"
 		},
@@ -86,6 +104,8 @@
 		"name":"SBU Hacks",
 		"start":"2018-09-14",
 		"end":"2018-09-15",
+		"lat":"40.9256538",
+		"lng":"-73.1409429",
 		"city":"Stony Brook",
 		"state":"NY"
 		},
@@ -95,6 +115,8 @@
 		"name":"ShellHacks",
 		"start":"2018-09-14",
 		"end":"2018-09-16",
+		"lat":"25.7616798",
+		"lng":"-80.1917902",
 		"city":"Miami",
 		"state":"FL"
 		},
@@ -104,6 +126,8 @@
 		"name":"Hophacks",
 		"start":"2018-09-15",
 		"end":"2018-09-17",
+		"lat":"39.2903848",
+		"lng":"-76.6121893",
 		"city":"Baltimore",
 		"state":"MD"
 		},
@@ -113,6 +137,8 @@
 		"name":"Lumohacks",
 		"start":"2018-09-15",
 		"end":"2018-09-16",
+		"lat":"49.2488091",
+		"lng":"-122.9805104",
 		"city":"Burnaby",
 		"state":"BC"
 		},
@@ -122,6 +148,8 @@
 		"name":"BASEHacks 3.0",
 		"start":"2018-09-22",
 		"end":"2018-09-23",
+		"lat":"37.5482697",
+		"lng":"-121.9885719",
 		"city":"Fremont",
 		"state":"CA"
 		},
@@ -131,6 +159,8 @@
 		"name":"GrizzHacks",
 		"start":"2018-09-22",
 		"end":"2018-09-23",
+		"lat":"42.680588",
+		"lng":"-83.1338214",
 		"city":"Rochester",
 		"state":"MI"
 		},
@@ -140,6 +170,8 @@
 		"name":"Ram Hacks",
 		"start":"2018-09-22",
 		"end":"2018-09-23",
+		"lat":"37.5407246",
+		"lng":"-77.4360481",
 		"city":"Richmond",
 		"state":"VA"
 		},
@@ -149,6 +181,8 @@
 		"name":"Volhacks",
 		"start":"2018-09-28",
 		"end":"2018-09-30",
+		"lat":"35.9606384",
+		"lng":"-83.9207392",
 		"city":"Knoxville",
 		"state":"TN"
 		},
@@ -158,6 +192,8 @@
 		"name":"HackNY",
 		"start":"2018-09-29",
 		"end":"2018-09-30",
+		"lat":"40.7127753",
+		"lng":"-74.0059728",
 		"city":"New York",
 		"state":"NY"
 		},
@@ -167,6 +203,8 @@
 		"name":"Mining hack",
 		"start":"2018-09-29",
 		"end":"2018-09-30",
+		"lat":"25.5428443",
+		"lng":"-103.4067861",
 		"city":"Torreon",
 		"state":"MX"
 		},
@@ -176,6 +214,8 @@
 		"name":"HackGSU",
 		"start":"2018-10-05",
 		"end":"2018-10-07",
+		"lat":"33.7489954",
+		"lng":"-84.3879824",
 		"city":"Atlanta",
 		"state":"GA"
 		},
@@ -185,6 +225,8 @@
 		"name":"HackNC",
 		"start":"2018-10-05",
 		"end":"2018-10-07",
+		"lat":"35.9131996",
+		"lng":"-79.0558445",
 		"city":"Chapel Hill",
 		"state":"NC"
 		},
@@ -194,6 +236,8 @@
 		"name":"Hack This. Help Kids.",
 		"start":"2018-10-05",
 		"end":"2018-10-06",
+		"lat":"40.4406248",
+		"lng":"-79.9958864",
 		"city":"Pittsburgh",
 		"state":"PA"
 		},
@@ -203,6 +247,8 @@
 		"name":"HackPSU",
 		"start":"2018-10-06",
 		"end":"2018-10-07",
+		"lat":"40.7933949",
+		"lng":"-77.8600012",
 		"city":"State College",
 		"state":"PA"
 		},
@@ -212,6 +258,8 @@
 		"name":"HackRU",
 		"start":"2018-10-06",
 		"end":"2018-10-07",
+		"lat":"40.4862157",
+		"lng":"-74.4518188",
 		"city":"New Brunswick",
 		"state":"NJ"
 		},
@@ -221,6 +269,8 @@
 		"name":"HackUIowa",
 		"start":"2018-10-06",
 		"end":"2018-10-07",
+		"lat":"41.6611277",
+		"lng":"-91.5301683",
 		"city":"Iowa City",
 		"state":"IA"
 		},
@@ -230,6 +280,8 @@
 		"name":"HackUTA",
 		"start":"2018-10-06",
 		"end":"2018-10-07",
+		"lat":"32.735687",
+		"lng":"-97.1080656",
 		"city":"Arlington",
 		"state":"TX"
 		},
@@ -239,6 +291,8 @@
 		"name":"HAkron 3000",
 		"start":"2018-10-06",
 		"end":"2018-10-07",
+		"lat":"41.0814447",
+		"lng":"-81.5190053",
 		"city":"Akron",
 		"state":"OH"
 		},
@@ -248,6 +302,8 @@
 		"name":"HackCooper",
 		"start":"2018-10-12",
 		"end":"2018-10-13",
+		"lat":"40.7127753",
+		"lng":"-74.0059728",
 		"city":"New York",
 		"state":"NY"
 		},
@@ -257,6 +313,8 @@
 		"name":"HackUMass",
 		"start":"2018-10-12",
 		"end":"2018-10-14",
+		"lat":"42.3732216",
+		"lng":"-72.5198537",
 		"city":"Amherst",
 		"state":"MA"
 		},
@@ -266,6 +324,8 @@
 		"name":"MHacks",
 		"start":"2018-10-12",
 		"end":"2018-10-14",
+		"lat":"42.2808256",
+		"lng":"-83.7430378",
 		"city":"Ann Arbor",
 		"state":"MI"
 		},
@@ -275,6 +335,8 @@
 		"name":"PatriotHacks",
 		"start":"2018-10-12",
 		"end":"2018-10-14",
+		"lat":"38.8462236",
+		"lng":"-77.3063733",
 		"city":"Fairfax",
 		"state":"VA"
 		},
@@ -284,6 +346,8 @@
 		"name":"SD Hacks",
 		"start":"2018-10-12",
 		"end":"2018-10-14",
+		"lat":"32.8328112",
+		"lng":"-117.2712717",
 		"city":"La Jolla",
 		"state":"CA"
 		},
@@ -293,6 +357,8 @@
 		"name":"TigerHacks",
 		"start":"2018-10-12",
 		"end":"2018-10-14",
+		"lat":"38.9517053",
+		"lng":"-92.3340724",
 		"city":"Columbia",
 		"state":"MO"
 		},
@@ -302,6 +368,8 @@
 		"name":"EastHacks",
 		"start":"2018-10-13",
 		"end":"2018-10-14",
+		"lat":"39.926813",
+		"lng":"-75.0246312",
 		"city":"Cherry Hill",
 		"state":"NJ"
 		},
@@ -311,6 +379,8 @@
 		"name":"HackDuke",
 		"start":"2018-10-13",
 		"end":"2018-10-14",
+		"lat":"35.9940329",
+		"lng":"-78.898619",
 		"city":"Durham",
 		"state":"NC"
 		},
@@ -320,6 +390,8 @@
 		"name":"BigRed//Hacks",
 		"start":"2018-10-19",
 		"end":"2018-10-21",
+		"lat":"42.4439614",
+		"lng":"-76.5018807",
 		"city":"Ithaca",
 		"state":"NY"
 		},
@@ -329,6 +401,8 @@
 		"name":"BoilerMake",
 		"start":"2018-10-19",
 		"end":"2018-10-21",
+		"lat":"40.4258686",
+		"lng":"-86.9080655",
 		"city":"West Lafayette",
 		"state":"IN"
 		},
@@ -338,6 +412,8 @@
 		"name":"HackGT",
 		"start":"2018-10-19",
 		"end":"2018-10-21",
+		"lat":"33.7489954",
+		"lng":"-84.3879824",
 		"city":"Atlanta",
 		"state":"GA"
 		},
@@ -347,6 +423,8 @@
 		"name":"HackHarvard",
 		"start":"2018-10-19",
 		"end":"2018-10-21",
+		"lat":"42.3736158",
+		"lng":"-71.1097335",
 		"city":"Cambridge",
 		"state":"MA"
 		},
@@ -356,6 +434,8 @@
 		"name":"HackISU",
 		"start":"2018-10-19",
 		"end":"2018-10-21",
+		"lat":"42.0307812",
+		"lng":"-93.6319131",
 		"city":"Ames",
 		"state":"IA"
 		},
@@ -365,6 +445,8 @@
 		"name":"Hack KState",
 		"start":"2018-10-19",
 		"end":"2018-10-21",
+		"lat":"39.1836082",
+		"lng":"-96.5716694",
 		"city":"Manhattan",
 		"state":"KS"
 		},
@@ -374,6 +456,8 @@
 		"name":"Kent Hack Enough",
 		"start":"2018-10-19",
 		"end":"2018-10-21",
+		"lat":"41.1536674",
+		"lng":"-81.3578859",
 		"city":"Kent",
 		"state":"OH"
 		},
@@ -383,6 +467,8 @@
 		"name":"DemonHacks",
 		"start":"2018-10-20",
 		"end":"2018-10-21",
+		"lat":"41.8781136",
+		"lng":"-87.6297982",
 		"city":"Chicago",
 		"state":"IL"
 		},
@@ -392,6 +478,8 @@
 		"name":"DubHacks",
 		"start":"2018-10-20",
 		"end":"2018-10-21",
+		"lat":"47.6062095",
+		"lng":"-122.3320708",
 		"city":"Seattle",
 		"state":"WA"
 		},
@@ -401,6 +489,8 @@
 		"name":"HackTX",
 		"start":"2018-10-20",
 		"end":"2018-10-21",
+		"lat":"30.267153",
+		"lng":"-97.7430608",
 		"city":"Austin",
 		"state":"TX"
 		},
@@ -410,6 +500,8 @@
 		"name":"HackUMBC",
 		"start":"2018-10-20",
 		"end":"2018-10-21",
+		"lat":"39.2903848",
+		"lng":"-76.6121893",
 		"city":"Baltimore",
 		"state":"MD"
 		},
@@ -419,6 +511,8 @@
 		"name":"HyphenHacks",
 		"start":"2018-10-20",
 		"end":"2018-10-21",
+		"lat":"37.7749295",
+		"lng":"-122.4194155",
 		"city":"San Francisco",
 		"state":"CA"
 		},
@@ -428,6 +522,8 @@
 		"name":"Power the Future",
 		"start":"2018-10-20",
 		"end":"2018-10-21",
+		"lat":"37.5407246",
+		"lng":"-77.4360481",
 		"city":"Richmond",
 		"state":"VA"
 		},
@@ -437,6 +533,8 @@
 		"name":"Cal Hacks 5.0",
 		"start":"2018-11-02",
 		"end":"2018-11-04",
+		"lat":"37.8715926",
+		"lng":"-122.272747",
 		"city":"Berkeley",
 		"state":"CA"
 		},
@@ -446,6 +544,8 @@
 		"name":"Electric City Hacks",
 		"start":"2018-11-02",
 		"end":"2018-11-04",
+		"lat":"44.309058",
+		"lng":"-78.319747",
 		"city":"Peterborough",
 		"state":"ON"
 		},
@@ -455,6 +555,8 @@
 		"name":"VandyHacks",
 		"start":"2018-11-02",
 		"end":"2018-11-04",
+		"lat":"36.1626638",
+		"lng":"-86.7816016",
 		"city":"Nashville",
 		"state":"TN"
 		},
@@ -464,6 +566,8 @@
 		"name":"WHACK (Wellesley Hacks)",
 		"start":"2018-11-02",
 		"end":"2018-11-04",
+		"lat":"42.296797",
+		"lng":"-71.2923877",
 		"city":"Wellesley",
 		"state":"MA"
 		},
@@ -473,6 +577,8 @@
 		"name":"CodeRED Discovery",
 		"start":"2018-11-03",
 		"end":"2018-11-04",
+		"lat":"29.7604267",
+		"lng":"-95.3698028",
 		"city":"Houston",
 		"state":"TX"
 		},
@@ -482,6 +588,8 @@
 		"name":"HackBI II",
 		"start":"2018-11-03",
 		"end":"2018-11-04",
+		"lat":"38.8048355",
+		"lng":"-77.0469214",
 		"city":"Alexandria",
 		"state":"VA"
 		},
@@ -491,6 +599,8 @@
 		"name":"HackNJIT",
 		"start":"2018-11-03",
 		"end":"2018-11-04",
+		"lat":"40.735657",
+		"lng":"-74.1723667",
 		"city":"Newark",
 		"state":"NJ"
 		},
@@ -500,6 +610,8 @@
 		"name":"hackPHS",
 		"start":"2018-11-03",
 		"end":"2018-11-04",
+		"lat":"40.3572976",
+		"lng":"-74.6672226",
 		"city":"Princeton",
 		"state":"NJ"
 		},
@@ -509,6 +621,8 @@
 		"name":"HealthHacks",
 		"start":"2018-11-03",
 		"end":"2018-11-04",
+		"lat":"37.5407246",
+		"lng":"-77.4360481",
 		"city":"Richmond",
 		"state":"VA"
 		},
@@ -518,6 +632,8 @@
 		"name":"UB Hacking",
 		"start":"2018-11-03",
 		"end":"2018-11-04",
+		"lat":"42.9790067",
+		"lng":"-78.792272",
 		"city":"Amherst",
 		"state":"NY"
 		},
@@ -527,6 +643,8 @@
 		"name":"HackPrinceton",
 		"start":"2018-11-09",
 		"end":"2018-11-11",
+		"lat":"40.3572976",
+		"lng":"-74.6672226",
 		"city":"Princeton",
 		"state":"NJ"
 		},
@@ -536,6 +654,8 @@
 		"name":"sunhacks",
 		"start":"2018-11-09",
 		"end":"2018-11-11",
+		"lat":"33.4255104",
+		"lng":"-111.9400054",
 		"city":"Phoenix / Tempe",
 		"state":"AZ"
 		},
@@ -545,6 +665,8 @@
 		"name":"BostonHacks",
 		"start":"2018-11-10",
 		"end":"2018-11-11",
+		"lat":"42.3600825",
+		"lng":"-71.0588801",
 		"city":"Boston",
 		"state":"MA"
 		},
@@ -554,6 +676,8 @@
 		"name":"Codestellation",
 		"start":"2018-11-10",
 		"end":"2018-11-11",
+		"lat":"42.3764852",
+		"lng":"-71.2356113",
 		"city":"Waltham",
 		"state":"MA"
 		},
@@ -563,6 +687,8 @@
 		"name":"HackMCST",
 		"start":"2018-11-10",
 		"end":"2018-11-11",
+		"lat":"40.8923212",
+		"lng":"-74.4773775",
 		"city":"Denville",
 		"state":"NJ"
 		},
@@ -572,6 +698,8 @@
 		"name":"HackWITUs",
 		"start":"2018-11-10",
 		"end":"2018-11-11",
+		"lat":"42.3600825",
+		"lng":"-71.0588801",
 		"city":"Boston",
 		"state":"MA"
 		},
@@ -581,6 +709,8 @@
 		"name":"MadHacks",
 		"start":"2018-11-10",
 		"end":"2018-11-11",
+		"lat":"43.0730517",
+		"lng":"-89.4012302",
 		"city":"Madison",
 		"state":"WI"
 		},
@@ -590,6 +720,8 @@
 		"name":"Technica",
 		"start":"2018-11-10",
 		"end":"2018-11-11",
+		"lat":"38.9896967",
+		"lng":"-76.93776",
 		"city":"College Park",
 		"state":"MD"
 		},
@@ -599,6 +731,8 @@
 		"name":"HackUSU",
 		"start":"2018-11-16",
 		"end":"2018-11-17",
+		"lat":"41.7369803",
+		"lng":"-111.8338359",
 		"city":"Logan",
 		"state":"UT"
 		},
@@ -608,6 +742,8 @@
 		"name":"Lehman Hack50",
 		"start":"2018-11-16",
 		"end":"2018-11-17",
+		"lat":"40.8447819",
+		"lng":"-73.8648268",
 		"city":"Bronx",
 		"state":"NY"
 		},
@@ -617,6 +753,8 @@
 		"name":"BlocHacks",
 		"start":"2018-11-17",
 		"end":"2018-11-18",
+		"lat":"45.5016889",
+		"lng":"-73.567256",
 		"city":"Montreal",
 		"state":"QC"
 		},
@@ -626,6 +764,8 @@
 		"name":"SacHacks",
 		"start":"2018-11-17",
 		"end":"2018-11-18",
+		"lat":"38.5815719",
+		"lng":"-121.4943996",
 		"city":"Sacramento",
 		"state":"CA"
 		},
@@ -635,6 +775,8 @@
 		"name":"Hack Western V",
 		"start":"2018-11-23",
 		"end":"2018-11-25",
+		"lat":"42.9849233",
+		"lng":"-81.2452768",
 		"city":"London",
 		"state":"ON"
 		},
@@ -644,6 +786,8 @@
 		"name":"YHack",
 		"start":"2018-11-30",
 		"end":"2018-12-02",
+		"lat":"41.308274",
+		"lng":"-72.9278835",
 		"city":"New Haven",
 		"state":"CT"
 		},
@@ -653,6 +797,8 @@
 		"name":"Urban Hacks",
 		"start":"2018-12-08",
 		"end":"2018-12-09",
+		"lat":"43.2557206",
+		"lng":"-79.8711024",
 		"city":"Hamilton",
 		"state":"ON"
 		}

@@ -6,9 +6,12 @@ from firebase import firebase
 import requests
 from bs4 import BeautifulSoup
 import json
-# import sys
-# reload(sys)
-# sys.setdefaultencoding('utf8')
+
+from googlemaps import googlemaps
+
+# to use for geocoding
+gmaps = googlemaps.Client(key="AIzaSyD8W5OzuAhjzrtbQGMpd5UUZpekdOUG5cI")
+
 
 
 #------ for getting the json object ------------------
@@ -64,10 +67,19 @@ for div in divs:
     state = str(addressBox.text.strip())
 	#state
 
+    #geocode
+    loc = city + state
+    geocode_result = gmaps.geocode(loc)
+    lat = str(geocode_result[0]["geometry"]["location"]["lat"])
+    lng = str(geocode_result[0]["geometry"]["location"]["lng"])
+
+
 	#continue with json write
     mlh_json.write("\n\t\t\"name\":"+  "\"" + eventName + "\"" + ",")
     mlh_json.write("\n\t\t\"start\":"+ "\"" + startDate + "\"" + ",")
     mlh_json.write("\n\t\t\"end\":"+   "\"" + endDate   + "\"" + ",")
+    mlh_json.write("\n\t\t\"lat\":"+   "\"" + lat   + "\"" + ",")
+    mlh_json.write("\n\t\t\"lng\":"+   "\"" + lng   + "\"" + ",")
     mlh_json.write("\n\t\t\"city\":"+  "\"" + city      + "\"" +",")
     mlh_json.write("\n\t\t\"state\":"+ "\"" + state     + "\"")
     mlh_json.write("\n\t\t},")

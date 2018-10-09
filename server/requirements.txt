@@ -1,0 +1,8 @@
+flask
+python-firebase
+flask-restful
+flask-cors
+beautifulsoup4
+googlemaps
+requests
+lxml

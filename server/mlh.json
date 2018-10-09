@@ -1,6 +1,5 @@
-{
-
-	"hack01":{
+[
+	{
 
 		"name":"Hack the 6ix 2018",
 		"start":"2018-08-24",
@@ -9,9 +8,9 @@
 		"lng":"-79.3831843",
 		"city":"Toronto",
 		"state":"ON"
-		},
+	},
 
-	"hack02":{
+	{
 
 		"name":"HackMTY",
 		"start":"2018-08-25",
@@ -20,9 +19,9 @@
 		"lng":"-100.3161126",
 		"city":"Monterrey",
 		"state":"MX"
-		},
+	},
 
-	"hack03":{
+	{
 
 		"name":"ByteHacks",
 		"start":"2018-09-01",
@@ -31,9 +30,9 @@
 		"lng":"-74.0059728",
 		"city":"New York",
 		"state":"NY"
-		},
+	},
 
-	"hack04":{
+	{
 
 		"name":"MedHacks",
 		"start":"2018-09-07",
@@ -42,9 +41,9 @@
 		"lng":"-76.6121893",
 		"city":"Baltimore",
 		"state":"MD"
-		},
+	},
 
-	"hack05":{
+	{
 
 		"name":"MXHacks",
 		"start":"2018-09-07",
@@ -53,9 +52,9 @@
 		"lng":"-99.133208",
 		"city":"Mexico City",
 		"state":"MX"
-		},
+	},
 
-	"hack06":{
+	{
 
 		"name":"PennApps",
 		"start":"2018-09-07",
@@ -64,9 +63,9 @@
 		"lng":"-75.1652215",
 		"city":"Philadelphia",
 		"state":"PA"
-		},
+	},
 
-	"hack07":{
+	{
 
 		"name":"HackTheU",
 		"start":"2018-09-08",
@@ -75,9 +74,9 @@
 		"lng":"-111.8910474",
 		"city":"Salt Lake City",
 		"state":"UT"
-		},
+	},
 
-	"hack08":{
+	{
 
 		"name":"HackRice 8",
 		"start":"2018-09-14",
@@ -86,9 +85,9 @@
 		"lng":"-95.3698028",
 		"city":"Houston",
 		"state":"TX"
-		},
+	},
 
-	"hack09":{
+	{
 
 		"name":"Hack the North",
 		"start":"2018-09-14",
@@ -97,9 +96,9 @@
 		"lng":"-80.5204096",
 		"city":"Waterloo",
 		"state":"ON"
-		},
+	},
 
-	"hack10":{
+	{
 
 		"name":"SBU Hacks",
 		"start":"2018-09-14",
@@ -108,9 +107,9 @@
 		"lng":"-73.1409429",
 		"city":"Stony Brook",
 		"state":"NY"
-		},
+	},
 
-	"hack11":{
+	{
 
 		"name":"ShellHacks",
 		"start":"2018-09-14",
@@ -119,9 +118,9 @@
 		"lng":"-80.1917902",
 		"city":"Miami",
 		"state":"FL"
-		},
+	},
 
-	"hack12":{
+	{
 
 		"name":"Hophacks",
 		"start":"2018-09-15",
@@ -130,9 +129,9 @@
 		"lng":"-76.6121893",
 		"city":"Baltimore",
 		"state":"MD"
-		},
+	},
 
-	"hack13":{
+	{
 
 		"name":"Lumohacks",
 		"start":"2018-09-15",
@@ -141,9 +140,9 @@
 		"lng":"-122.9805104",
 		"city":"Burnaby",
 		"state":"BC"
-		},
+	},
 
-	"hack14":{
+	{
 
 		"name":"BASEHacks 3.0",
 		"start":"2018-09-22",
@@ -152,9 +151,9 @@
 		"lng":"-121.9885719",
 		"city":"Fremont",
 		"state":"CA"
-		},
+	},
 
-	"hack15":{
+	{
 
 		"name":"GrizzHacks",
 		"start":"2018-09-22",
@@ -163,9 +162,9 @@
 		"lng":"-83.1338214",
 		"city":"Rochester",
 		"state":"MI"
-		},
+	},
 
-	"hack16":{
+	{
 
 		"name":"Ram Hacks",
 		"start":"2018-09-22",
@@ -174,9 +173,9 @@
 		"lng":"-77.4360481",
 		"city":"Richmond",
 		"state":"VA"
-		},
+	},
 
-	"hack17":{
+	{
 
 		"name":"Volhacks",
 		"start":"2018-09-28",
@@ -185,9 +184,9 @@
 		"lng":"-83.9207392",
 		"city":"Knoxville",
 		"state":"TN"
-		},
+	},
 
-	"hack18":{
+	{
 
 		"name":"HackNY",
 		"start":"2018-09-29",
@@ -196,20 +195,20 @@
 		"lng":"-74.0059728",
 		"city":"New York",
 		"state":"NY"
-		},
+	},
 
-	"hack19":{
+	{
 
 		"name":"Mining hack",
 		"start":"2018-09-29",
 		"end":"2018-09-30",
-		"lat":"25.5428443",
-		"lng":"-103.4067861",
+		"lat":"27.058676",
+		"lng":"-101.7068294",
 		"city":"Torreon",
 		"state":"MX"
-		},
+	},
 
-	"hack20":{
+	{
 
 		"name":"HackGSU",
 		"start":"2018-10-05",
@@ -218,9 +217,9 @@
 		"lng":"-84.3879824",
 		"city":"Atlanta",
 		"state":"GA"
-		},
+	},
 
-	"hack21":{
+	{
 
 		"name":"HackNC",
 		"start":"2018-10-05",
@@ -229,20 +228,20 @@
 		"lng":"-79.0558445",
 		"city":"Chapel Hill",
 		"state":"NC"
-		},
+	},
 
-	"hack22":{
+	{
 
 		"name":"Hack This. Help Kids.",
 		"start":"2018-10-05",
 		"end":"2018-10-06",
-		"lat":"40.4406248",
+		"lat":"40.44062479999999",
 		"lng":"-79.9958864",
 		"city":"Pittsburgh",
 		"state":"PA"
-		},
+	},
 
-	"hack23":{
+	{
 
 		"name":"HackPSU",
 		"start":"2018-10-06",
@@ -251,9 +250,9 @@
 		"lng":"-77.8600012",
 		"city":"State College",
 		"state":"PA"
-		},
+	},
 
-	"hack24":{
+	{
 
 		"name":"HackRU",
 		"start":"2018-10-06",
@@ -262,9 +261,9 @@
 		"lng":"-74.4518188",
 		"city":"New Brunswick",
 		"state":"NJ"
-		},
+	},
 
-	"hack25":{
+	{
 
 		"name":"HackUIowa",
 		"start":"2018-10-06",
@@ -273,31 +272,31 @@
 		"lng":"-91.5301683",
 		"city":"Iowa City",
 		"state":"IA"
-		},
+	},
 
-	"hack26":{
+	{
 
 		"name":"HackUTA",
 		"start":"2018-10-06",
 		"end":"2018-10-07",
 		"lat":"32.735687",
-		"lng":"-97.1080656",
+		"lng":"-97.10806559999999",
 		"city":"Arlington",
 		"state":"TX"
-		},
+	},
 
-	"hack27":{
+	{
 
 		"name":"HAkron 3000",
 		"start":"2018-10-06",
 		"end":"2018-10-07",
 		"lat":"41.0814447",
-		"lng":"-81.5190053",
+		"lng":"-81.51900529999999",
 		"city":"Akron",
 		"state":"OH"
-		},
+	},
 
-	"hack28":{
+	{
 
 		"name":"HackCooper",
 		"start":"2018-10-12",
@@ -306,9 +305,9 @@
 		"lng":"-74.0059728",
 		"city":"New York",
 		"state":"NY"
-		},
+	},
 
-	"hack29":{
+	{
 
 		"name":"HackUMass",
 		"start":"2018-10-12",
@@ -317,9 +316,9 @@
 		"lng":"-72.5198537",
 		"city":"Amherst",
 		"state":"MA"
-		},
+	},
 
-	"hack30":{
+	{
 
 		"name":"MHacks",
 		"start":"2018-10-12",
@@ -328,20 +327,20 @@
 		"lng":"-83.7430378",
 		"city":"Ann Arbor",
 		"state":"MI"
-		},
+	},
 
-	"hack31":{
+	{
 
 		"name":"PatriotHacks",
 		"start":"2018-10-12",
 		"end":"2018-10-14",
-		"lat":"38.8462236",
-		"lng":"-77.3063733",
+		"lat":"38.84622359999999",
+		"lng":"-77.30637329999999",
 		"city":"Fairfax",
 		"state":"VA"
-		},
+	},
 
-	"hack32":{
+	{
 
 		"name":"SD Hacks",
 		"start":"2018-10-12",
@@ -350,9 +349,9 @@
 		"lng":"-117.2712717",
 		"city":"La Jolla",
 		"state":"CA"
-		},
+	},
 
-	"hack33":{
+	{
 
 		"name":"TigerHacks",
 		"start":"2018-10-12",
@@ -361,9 +360,9 @@
 		"lng":"-92.3340724",
 		"city":"Columbia",
 		"state":"MO"
-		},
+	},
 
-	"hack34":{
+	{
 
 		"name":"EastHacks",
 		"start":"2018-10-13",
@@ -372,9 +371,9 @@
 		"lng":"-75.0246312",
 		"city":"Cherry Hill",
 		"state":"NJ"
-		},
+	},
 
-	"hack35":{
+	{
 
 		"name":"HackDuke",
 		"start":"2018-10-13",
@@ -383,9 +382,9 @@
 		"lng":"-78.898619",
 		"city":"Durham",
 		"state":"NC"
-		},
+	},
 
-	"hack36":{
+	{
 
 		"name":"BigRed//Hacks",
 		"start":"2018-10-19",
@@ -394,20 +393,20 @@
 		"lng":"-76.5018807",
 		"city":"Ithaca",
 		"state":"NY"
-		},
+	},
 
-	"hack37":{
+	{
 
 		"name":"BoilerMake",
 		"start":"2018-10-19",
 		"end":"2018-10-21",
 		"lat":"40.4258686",
-		"lng":"-86.9080655",
+		"lng":"-86.90806549999999",
 		"city":"West Lafayette",
 		"state":"IN"
-		},
+	},
 
-	"hack38":{
+	{
 
 		"name":"HackGT",
 		"start":"2018-10-19",
@@ -416,42 +415,42 @@
 		"lng":"-84.3879824",
 		"city":"Atlanta",
 		"state":"GA"
-		},
+	},
 
-	"hack39":{
+	{
 
 		"name":"HackHarvard",
 		"start":"2018-10-19",
 		"end":"2018-10-21",
 		"lat":"42.3736158",
-		"lng":"-71.1097335",
+		"lng":"-71.10973349999999",
 		"city":"Cambridge",
 		"state":"MA"
-		},
+	},
 
-	"hack40":{
+	{
 
 		"name":"HackISU",
 		"start":"2018-10-19",
 		"end":"2018-10-21",
 		"lat":"42.0307812",
-		"lng":"-93.6319131",
+		"lng":"-93.63191309999999",
 		"city":"Ames",
 		"state":"IA"
-		},
+	},
 
-	"hack41":{
+	{
 
 		"name":"Hack KState",
 		"start":"2018-10-19",
 		"end":"2018-10-21",
-		"lat":"39.1836082",
-		"lng":"-96.5716694",
+		"lat":"39.18360819999999",
+		"lng":"-96.57166939999999",
 		"city":"Manhattan",
 		"state":"KS"
-		},
+	},
 
-	"hack42":{
+	{
 
 		"name":"Kent Hack Enough",
 		"start":"2018-10-19",
@@ -460,9 +459,9 @@
 		"lng":"-81.3578859",
 		"city":"Kent",
 		"state":"OH"
-		},
+	},
 
-	"hack43":{
+	{
 
 		"name":"DemonHacks",
 		"start":"2018-10-20",
@@ -471,9 +470,9 @@
 		"lng":"-87.6297982",
 		"city":"Chicago",
 		"state":"IL"
-		},
+	},
 
-	"hack44":{
+	{
 
 		"name":"DubHacks",
 		"start":"2018-10-20",
@@ -482,9 +481,9 @@
 		"lng":"-122.3320708",
 		"city":"Seattle",
 		"state":"WA"
-		},
+	},
 
-	"hack45":{
+	{
 
 		"name":"HackTX",
 		"start":"2018-10-20",
@@ -493,9 +492,9 @@
 		"lng":"-97.7430608",
 		"city":"Austin",
 		"state":"TX"
-		},
+	},
 
-	"hack46":{
+	{
 
 		"name":"HackUMBC",
 		"start":"2018-10-20",
@@ -504,9 +503,9 @@
 		"lng":"-76.6121893",
 		"city":"Baltimore",
 		"state":"MD"
-		},
+	},
 
-	"hack47":{
+	{
 
 		"name":"HyphenHacks",
 		"start":"2018-10-20",
@@ -515,9 +514,9 @@
 		"lng":"-122.4194155",
 		"city":"San Francisco",
 		"state":"CA"
-		},
+	},
 
-	"hack48":{
+	{
 
 		"name":"Power the Future",
 		"start":"2018-10-20",
@@ -526,9 +525,9 @@
 		"lng":"-77.4360481",
 		"city":"Richmond",
 		"state":"VA"
-		},
+	},
 
-	"hack49":{
+	{
 
 		"name":"Cal Hacks 5.0",
 		"start":"2018-11-02",
@@ -537,20 +536,20 @@
 		"lng":"-122.272747",
 		"city":"Berkeley",
 		"state":"CA"
-		},
+	},
 
-	"hack50":{
+	{
 
 		"name":"Electric City Hacks",
 		"start":"2018-11-02",
 		"end":"2018-11-04",
 		"lat":"44.309058",
-		"lng":"-78.319747",
+		"lng":"-78.31974699999999",
 		"city":"Peterborough",
 		"state":"ON"
-		},
+	},
 
-	"hack51":{
+	{
 
 		"name":"VandyHacks",
 		"start":"2018-11-02",
@@ -559,20 +558,20 @@
 		"lng":"-86.7816016",
 		"city":"Nashville",
 		"state":"TN"
-		},
+	},
 
-	"hack52":{
+	{
 
 		"name":"WHACK (Wellesley Hacks)",
 		"start":"2018-11-02",
 		"end":"2018-11-04",
 		"lat":"42.296797",
-		"lng":"-71.2923877",
+		"lng":"-71.29238769999999",
 		"city":"Wellesley",
 		"state":"MA"
-		},
+	},
 
-	"hack53":{
+	{
 
 		"name":"CodeRED Discovery",
 		"start":"2018-11-03",
@@ -581,9 +580,9 @@
 		"lng":"-95.3698028",
 		"city":"Houston",
 		"state":"TX"
-		},
+	},
 
-	"hack54":{
+	{
 
 		"name":"HackBI II",
 		"start":"2018-11-03",
@@ -592,9 +591,9 @@
 		"lng":"-77.0469214",
 		"city":"Alexandria",
 		"state":"VA"
-		},
+	},
 
-	"hack55":{
+	{
 
 		"name":"HackNJIT",
 		"start":"2018-11-03",
@@ -603,9 +602,9 @@
 		"lng":"-74.1723667",
 		"city":"Newark",
 		"state":"NJ"
-		},
+	},
 
-	"hack56":{
+	{
 
 		"name":"hackPHS",
 		"start":"2018-11-03",
@@ -614,9 +613,9 @@
 		"lng":"-74.6672226",
 		"city":"Princeton",
 		"state":"NJ"
-		},
+	},
 
-	"hack57":{
+	{
 
 		"name":"HealthHacks",
 		"start":"2018-11-03",
@@ -625,20 +624,20 @@
 		"lng":"-77.4360481",
 		"city":"Richmond",
 		"state":"VA"
-		},
+	},
 
-	"hack58":{
+	{
 
 		"name":"UB Hacking",
 		"start":"2018-11-03",
 		"end":"2018-11-04",
-		"lat":"42.9790067",
+		"lat":"42.97900670000001",
 		"lng":"-78.792272",
 		"city":"Amherst",
 		"state":"NY"
-		},
+	},
 
-	"hack59":{
+	{
 
 		"name":"HackPrinceton",
 		"start":"2018-11-09",
@@ -647,9 +646,9 @@
 		"lng":"-74.6672226",
 		"city":"Princeton",
 		"state":"NJ"
-		},
+	},
 
-	"hack60":{
+	{
 
 		"name":"sunhacks",
 		"start":"2018-11-09",
@@ -658,9 +657,9 @@
 		"lng":"-111.9400054",
 		"city":"Phoenix / Tempe",
 		"state":"AZ"
-		},
+	},
 
-	"hack61":{
+	{
 
 		"name":"BostonHacks",
 		"start":"2018-11-10",
@@ -669,9 +668,9 @@
 		"lng":"-71.0588801",
 		"city":"Boston",
 		"state":"MA"
-		},
+	},
 
-	"hack62":{
+	{
 
 		"name":"Codestellation",
 		"start":"2018-11-10",
@@ -680,20 +679,20 @@
 		"lng":"-71.2356113",
 		"city":"Waltham",
 		"state":"MA"
-		},
+	},
 
-	"hack63":{
+	{
 
 		"name":"HackMCST",
 		"start":"2018-11-10",
 		"end":"2018-11-11",
 		"lat":"40.8923212",
-		"lng":"-74.4773775",
+		"lng":"-74.47737750000002",
 		"city":"Denville",
 		"state":"NJ"
-		},
+	},
 
-	"hack64":{
+	{
 
 		"name":"HackWITUs",
 		"start":"2018-11-10",
@@ -702,9 +701,9 @@
 		"lng":"-71.0588801",
 		"city":"Boston",
 		"state":"MA"
-		},
+	},
 
-	"hack65":{
+	{
 
 		"name":"MadHacks",
 		"start":"2018-11-10",
@@ -713,9 +712,9 @@
 		"lng":"-89.4012302",
 		"city":"Madison",
 		"state":"WI"
-		},
+	},
 
-	"hack66":{
+	{
 
 		"name":"Technica",
 		"start":"2018-11-10",
@@ -724,9 +723,9 @@
 		"lng":"-76.93776",
 		"city":"College Park",
 		"state":"MD"
-		},
+	},
 
-	"hack67":{
+	{
 
 		"name":"HackUSU",
 		"start":"2018-11-16",
@@ -735,9 +734,9 @@
 		"lng":"-111.8338359",
 		"city":"Logan",
 		"state":"UT"
-		},
+	},
 
-	"hack68":{
+	{
 
 		"name":"Lehman Hack50",
 		"start":"2018-11-16",
@@ -746,9 +745,9 @@
 		"lng":"-73.8648268",
 		"city":"Bronx",
 		"state":"NY"
-		},
+	},
 
-	"hack69":{
+	{
 
 		"name":"BlocHacks",
 		"start":"2018-11-17",
@@ -757,9 +756,9 @@
 		"lng":"-73.567256",
 		"city":"Montreal",
 		"state":"QC"
-		},
+	},
 
-	"hack70":{
+	{
 
 		"name":"SacHacks",
 		"start":"2018-11-17",
@@ -768,9 +767,9 @@
 		"lng":"-121.4943996",
 		"city":"Sacramento",
 		"state":"CA"
-		},
+	},
 
-	"hack71":{
+	{
 
 		"name":"Hack Western V",
 		"start":"2018-11-23",
@@ -779,9 +778,9 @@
 		"lng":"-81.2452768",
 		"city":"London",
 		"state":"ON"
-		},
+	},
 
-	"hack72":{
+	{
 
 		"name":"YHack",
 		"start":"2018-11-30",
@@ -790,9 +789,9 @@
 		"lng":"-72.9278835",
 		"city":"New Haven",
 		"state":"CT"
-		},
+	},
 
-	"hack73":{
+	{
 
 		"name":"Urban Hacks",
 		"start":"2018-12-08",
@@ -802,4 +801,4 @@
 		"city":"Hamilton",
 		"state":"ON"
 		}
-}
+]

@@ -1,6 +1,6 @@
 import random
 from flask import Flask, jsonify, request
-from flask_restful import Resource, Api
+from flask_restful import Resource
 from flask_cors import CORS
 from firebase import firebase
 import requests
@@ -11,7 +11,6 @@ from googlemaps import googlemaps
 
 # to use for geocoding
 gmaps = googlemaps.Client(key="AIzaSyD8W5OzuAhjzrtbQGMpd5UUZpekdOUG5cI")
-
 
 
 #------ for getting the json object ------------------
@@ -26,7 +25,7 @@ mlh_json.write(
 
 
 		#beginning
-		"{"
+		"["
 
 
 	)
@@ -38,15 +37,11 @@ divs = soup.find_all('div', class_='event-wrapper')
 i = 0
 for div in divs:
     i+=1
-    mlh_json.write("\n\n\t\"hack")
 
-    if i < 10:
-        mlh_json.write("0" + str(i) + "\":" + "{"+"\n")
-    else:
-        mlh_json.write(str(i) + "\":" + "{"+"\n")
+    mlh_json.write("\n\t{"+"\n")
 
-	eventBox = div.find(itemprop = 'name')
-	eventName = str(eventBox.text.strip())
+    eventBox = div.find(itemprop = 'name')
+    eventName = str(eventBox.text.strip())
 	#eventName
 
 
@@ -82,7 +77,7 @@ for div in divs:
     mlh_json.write("\n\t\t\"lng\":"+   "\"" + lng   + "\"" + ",")
     mlh_json.write("\n\t\t\"city\":"+  "\"" + city      + "\"" +",")
     mlh_json.write("\n\t\t\"state\":"+ "\"" + state     + "\"")
-    mlh_json.write("\n\t\t},")
+    mlh_json.write("\n\t},\n")
 
 
 mlh_json.close()
@@ -101,7 +96,7 @@ w.close()
 # This finishes writing the remainder of the .json file
 mlh_json = open("mlh.json", "a")
 mlh_json.write("\t\t}")
-mlh_json.write("\n}")
+mlh_json.write("\n]")
 mlh_json.close()
 
 
@@ -125,7 +120,7 @@ def index():
     result = firebase.post('/hackathons', data) #end of argument
 
     for key, value in result.items():
-        print key, value
+        print (key, value)
 
     return value
     

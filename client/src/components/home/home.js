@@ -4,73 +4,24 @@ import './home.css'
 import axios from 'axios';
 
 
-const onMarkerClick = (props, marker, e) => {
-    this.setState({
-      selectedPlace: props,
-      activeMarker: marker,
-      showingInfoWindow: true
-    })
-}
 
-const onMapClicked = (props) => {
-        if (this.state.showingInfoWindow) {
-            this.setState({
-                showingInfoWindow: false,
-                activeMarker: null
-            })
-        }
-    }
-
-const addMarker = (data) => {
-
-        // console.log(data, data.hacks);
-        // for (let foo of data["hacks"]){
-        //     console.log(foo);
-        // }
-
-        var thing = [
-            {
-                "name": "kawser" 
-            },
-
-            {
-                "name": "tashfia"
-            }
-        ]
-
-        thing = data;
-
-        console.log(Object.keys(thing))
-
-        console.log(typeof thing);
-
-        Object.entries(data).forEach(([i, val]) => {
-            console.log(i);          // the name of the current key.
-            console.log(val.lat);          // the value of the current key.
-        });
-
-
-        return Object.entries(data).forEach(([i, val]) => {
-            return (
-
-                <li>Hello</li>
-                    // <Marker
-                    //     key={i}
-                    //     //onClick={this.onMarkerClick}
-                    //     title={'The marker`s title will appear as a tooltip.'}
-                    //     name={val.name}
-                    //     position={{lat: val.lat, lng: val.lng}}
-                    // />
-            )
-        }) 
-    }
 
 class Home extends Component {
 
     constructor(props) {
         super(props);
         this.state = {
-            hackathons: [],
+            hackathons: [
+                {
+                    name:"",
+                    start: "",
+                    end: "",
+                    lat: "",
+                    lng: "",
+                    city: "",
+                    state: ""
+                }
+            ],
             addResponse: [],
             showingInfoWindow: false,
             activeMarker: {},
@@ -82,9 +33,7 @@ class Home extends Component {
                 },
                 zoom: 4
             }
-          
         }
-    
     }
 
     componentDidMount(){
@@ -94,17 +43,51 @@ class Home extends Component {
             })
     }
 
+
+    onMarkerClick = (props, marker, e) => {
+        this.setState({
+          selectedPlace: props,
+          activeMarker: marker,
+          showingInfoWindow: true
+        })
+    }
+
+    onMapClicked = (props) => {
+        if (this.state.showingInfoWindow) {
+            this.setState({
+                showingInfoWindow: false,
+                activeMarker: null
+            })
+        }
+    }
+
+    addMarker = (data) => {
+        return data.map((item, i) => {
+            return (
+                    <Marker
+                        key={i}
+                        onClick={this.onMarkerClick}
+                        title={'The marker`s title will appear as a tooltip.'}
+                        name={data[i].name}
+                        position={{lat: data[i].lat, lng: data[i].lng}}
+                    />
+            )
+        })
+    }
+
+
+
    
     render() {
-        {console.log(addMarker(this.state.hackathons))}
         console.log("rendering")
         return (
 
             <div>
                 <div>
                     
+
                     <Map
-                        onlick = {this.onMapClicked}
+                        onClick = {this.onMapClicked}
                         google = {this.props.google}
                         initialCenter = {{
                             lat: 39.8283,
@@ -116,19 +99,13 @@ class Home extends Component {
                         <Marker
                             onClick={this.onMarkerClick}
                             title={'The marker`s title will appear as a tooltip.'}
-                            name={"SOM"}
-                            position={{lat: 37.778519, lng: -122.405640}}
-                        /> 
-
-                        <Marker
-                            onClick={this.onMarkerClick}
-                            title={'The marker`s title will appear as a tooltip.'}
-                            name={"SOM"}
-                            position={{lat: 36.778519, lng: -122.405640}}
+                            name={this.state.name}
+                            position={{lat: 39.8283, lng: -98.579}}
                         />
 
+                        {addMarker(this.state.hackathons)}
                         
-
+                    
                         <InfoWindow
                             marker={this.state.activeMarker}
                             visible={this.state.showingInfoWindow}
